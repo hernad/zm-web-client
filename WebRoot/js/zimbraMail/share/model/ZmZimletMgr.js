@@ -61,9 +61,9 @@ ZmZimletMgr._RE_REMOTE = /^((https?|ftps?):\x2f\x2f|\x2f)/;
 
 /**
 * List of Core Zimlets.
-* com_zimbra_apptsummary|com_zimbra_date|com_zimbra_dnd|com_zimbra_email|com_zimbra_linkedin|com_zimbra_phone|com_zimbra_webex|com_zimbra_social|com_zimbra_srchhighlighter|com_zimbra_url
+* com_zimbra_apptsummary|com_zimbra_date|com_zimbra_dnd|com_zimbra_email|com_zimbra_linkedin|com_zimbra_social|com_zimbra_srchhighlighter|com_zimbra_url
 */
-ZmZimletMgr.CORE_ZIMLETS = /com_zimbra_apptsummary|com_zimbra_date|com_zimbra_dnd|com_zimbra_email|com_zimbra_linkedin|com_zimbra_phone|com_zimbra_webex|com_zimbra_social|com_zimbra_srchhighlighter|com_zimbra_url/;
+ZmZimletMgr.CORE_ZIMLETS = /com_zimbra_apptsummary|com_zimbra_date|com_zimbra_dnd|com_zimbra_email|com_zimbra_linkedin|com_zimbra_social|com_zimbra_srchhighlighter|com_zimbra_url/;
 
 /**
  * If the Zimlet's config_template has  hasSensitiveData = true, it will be considered as sensitive Zimlet
