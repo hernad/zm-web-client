@@ -15,7 +15,7 @@
  * See the License for the specific language governing rights and limitations under the License. 
  * The Original Code is Zimbra Open Source Web Client. 
  * The Initial Developer of the Original Code is Zimbra, Inc. 
- * All portions of the code are Copyright (C) 2014 Zimbra, Inc. All Rights Reserved. 
+ * All portions of the code are Copyright (C) 2014 Zimbra, Inc. is Copyright holder. 
  * ***** END LICENSE BLOCK *****
  */
 tinymce.addI18n('vi',{

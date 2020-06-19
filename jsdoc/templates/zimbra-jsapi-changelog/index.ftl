@@ -135,7 +135,7 @@
 
 <div class="container footer">
 	<div class="span-12">
-		<p>Copyright (C) 2010, 2014, 2016, 2017 Synacor, Inc. All rights reserved</p>
+		<p>Copyright (C) 2010, 2014, 2016, 2017 Synacor, Inc. is Copyright holder</p>
 	</div>
 	<div class="span-12 last right">
 		<p><a href="http://www.zimbra.com/forums/">Forums</a> | <a href="http://www.zimbra.com/about/">About</a> | <a href="http://www.zimbra.com/legal.html#copyright">Copyright</a> | <a href="http://www.zimbra.com/privacy.html">Privacy</a> | <a href="http://www.zimbra.com/license/">License</a> | <a href="http://www.zimbra.com/legal.html">Trademarks</a></p>

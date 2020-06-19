@@ -17,7 +17,52 @@
  * The Initial Developer of the Original Code is Zimbra, Inc.  All rights to the Original Code were
  * transferred by Zimbra, Inc. to Synacor, Inc. on September 14, 2015.
  *
- * All portions of the code are Copyright (C) 2006, 2007, 2014, 2016 Synacor, Inc. All Rights Reserved.
+ * All portions of the code are Copyright (C) 2006, 2007, 2014, 2016 Synacor, Inc. is Copyright holder.
  * ***** END LICENSE BLOCK *****
 -->
-<html><head>	<title>Sample Zimbra Launch Page</title>	<script type="text/javascript" language="JavaScript">		<!--		//**********************************************		//** Change the URL to your Zimbra server URL **		//**********************************************		zimbraServerURL = 'http://localhost:7070/';		zimbraWinId = null;		function openit()		{			zimbraWinId = window.open(zimbraServerURL, 'zimbra',					'resizable=yes,copyhistory=no,menubar=no,status=no,location=no,toolbar=no');			window.open('', '_parent', '');		}		function mail()		{				zimbraWinId._zimbraMail.activateApp("mail");		}		function calendar()		{			zimbraWinId._zimbraMail.activateApp("calendar");		}		function contacts()		{			zimbraWinId._zimbraMail.activateApp("contacts");		}		//-->	</script></head><body onload="openit();"><a href="javascript:mail()">Mail</a><br/><a href="javascript:calendar()">Calendar</a><br/><a href="javascript:contacts()">Contacts</a></body></html> 
+<html>
+<head>
+	<title>Sample Zimbra Launch Page</title>
+	<script type="text/javascript" language="JavaScript">
+		<!--
+		//**********************************************
+		//** Change the URL to your Zimbra server URL **
+		//**********************************************
+		zimbraServerURL = 'http://localhost:7070/';
+		zimbraWinId = null;
+
+		function openit()
+		{
+			zimbraWinId = window.open(zimbraServerURL, 'zimbra',
+					'resizable=yes,copyhistory=no,menubar=no,status=no,location=no,toolbar=no');
+			window.open('', '_parent', '');
+		}
+
+		function mail()
+		{	
+			zimbraWinId._zimbraMail.activateApp("mail");
+		}
+
+		function calendar()
+		{
+			zimbraWinId._zimbraMail.activateApp("calendar");
+		}
+
+		function contacts()
+		{
+			zimbraWinId._zimbraMail.activateApp("contacts");
+		}
+		//-->
+	</script>
+</head>
+
+<body onload="openit();">
+
+<a href="javascript:mail()">Mail</a>
+<br/>
+<a href="javascript:calendar()">Calendar</a>
+<br/>
+<a href="javascript:contacts()">Contacts</a>
+
+</body>
+</html> 

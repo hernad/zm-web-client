@@ -132,7 +132,7 @@
                     <a id="more-a" accesskey="${requestScope.next_accesskey}" class='zo_button next_button' href="${fn:escapeXml(url)}&show=more">More</a>
                 </div> 
                 <br>
-                &copy; Vmware and Zimbra. All rights reserved.
+                &copy; Vmware and Zimbra. is Copyright holder.
                 </span>
                 
                 	<input type="hidden" name="ipadcoffset" value="${empty requestScope.lmt ? context.searchResult.nextOffset : requestScope.lmt}"/>

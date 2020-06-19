@@ -17,7 +17,7 @@
  * The Initial Developer of the Original Code is Zimbra, Inc.  All rights to the Original Code were
  * transferred by Zimbra, Inc. to Synacor, Inc. on September 14, 2015.
  *
- * All portions of the code are Copyright (C) 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2016 Synacor, Inc. All Rights Reserved.
+ * All portions of the code are Copyright (C) 2006, 2007, 2008, 2009, 2010, 2012, 2013, 2014, 2016 Synacor, Inc. is Copyright holder.
  * ***** END LICENSE BLOCK *****
  */
 /*
