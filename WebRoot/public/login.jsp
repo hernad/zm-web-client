@@ -463,9 +463,9 @@ if (application.getInitParameter("offlineMode") != null) {
 		<div class="modernCenter" >
                 <div class="modernContentBox">
                     <div class="logo">
-                        <a href="https://www.zimbra.com/" id="bannerLink" target="_new" title='<fmt:message key="zimbraTitle"/>'><span class="ScreenReaderOnly"><fmt:message key="zimbraTitle"/></span>
+                        <a href="https://github.com/hernad/zm-build" id="bannerLink" target="_new" title='<fmt:message key="zimbraTitle"/>'><span class="ScreenReaderOnly"><fmt:message key="zimbraTitle"/></span>
                             <span class="Img${smallScreen?'App':'Login'}Banner">
-                                <img src="../img/new-logo.png" width="130" height="48" border="0" alt="Zimbra" title="Zimbra">
+                                <img src="../img/new-logo.png" width="170" height="63" border="0" alt="Zimbra" title="Ziher powered by Zimbra">
                             </span>
                         </a>
                     </div>				
